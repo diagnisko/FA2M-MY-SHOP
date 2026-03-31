@@ -1,0 +1,28 @@
+{
+  "name": "fa2m-ecommerce",
+  "version": "2.0.0",
+  "description": "FA2M E-Commerce Platform - Frontend + Backend",
+  "private": true,
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "start": "cd backend && npm start",
+    "dev": "cd backend && npm run dev",
+    "install-all": "npm install && cd backend && npm install",
+    "build": "echo 'Build step - dependencies installed'"
+  },
+  "workspaces": [
+    "backend"
+  ],
+  "keywords": [
+    "ecommerce",
+    "fa2m",
+    "shop",
+    "store"
+  ],
+  "author": "FA2M",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {}
+}
