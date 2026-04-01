@@ -7,10 +7,10 @@
     "node": ">=22.5.0"
   },
   "scripts": {
-"start":"echo 'Use vercel --prod for production'"
-    "dev": "cd backend && npm run dev",
-    "install-all": "npm install && cd backend && npm install",
-"build":"echo 'Serverless ready - no build step needed'"
+    "start": "echo 'Use vercel --prod for production'",
+    "dev": "npm run dev --workspace=backend",
+    "install-all": "npm install",
+    "build": "echo 'Serverless ready - no build step needed'"
   },
   "workspaces": [
     "backend"
